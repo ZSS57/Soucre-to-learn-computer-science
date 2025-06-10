@@ -64,14 +64,25 @@ const sources = [
     description: "CS50 is Harvard University's introduction to computer science, available for free online.",
     img: "/Images/cs50.jpg", 
     link: "https://cs50.harvard.edu"
-  }
-
+  },
+  {
+    name: "Github",
+    description: "Github is a platform that allows developers to create, store, manage, and share their code.",
+    img: "/Images/github.jpg", 
+    link: "https://github.com/"
+  },
+  {
+    name: "Netlify",
+    description: "Netlify is a platform that can change your ideas into web that every body can see it.",
+    img: "/Images/netlify.jpg", 
+    link: "https://www.netlify.com/"
+  },
 ];
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Source of learning Computer Science</h1>
+      <h1>Sources of learning Computer Science</h1>
       <h2>Here are many ways to learn coding, come and check these amazing websites.</h2>
       <div className="source-list">
         {sources.map((source, index) => (
